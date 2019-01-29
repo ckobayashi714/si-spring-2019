@@ -16,3 +16,4 @@ search: true
 ---
 
 # Introduction
+Welcome to the CPSC 131 Supplemental Instruction review website!
