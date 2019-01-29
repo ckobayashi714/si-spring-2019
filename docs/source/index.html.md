@@ -10,10 +10,12 @@ toc_footers:
 
 includes:
   - unix
-  - oop
 
 search: true
 ---
 
 # Introduction
-Welcome to the CPSC 131 Supplemental Instruction review website!
+Welcome to the CPSC 131 Supplemental Instruction review website! This is an open 
+source webpage that contains review material sourced from students taking the 
+course. If you would like to contribute to the webpage, please visit the 
+[wiki](https://github.com/omolazabal/si-spring-2019/wiki) to learn more.
