@@ -1,11 +1,5 @@
 
-# C++ on Unix
-
-> Compiling a C++ program named "main.cpp"
-
-```shell
-    # Insert command here
-```
+# Hello World!
 
 ```cpp
     // main.cpp
@@ -16,8 +10,14 @@
     }
 ```
 
-The projects in CPSC 131 are compiled and tested on a server running Linux. 
-**[INSERT COMPILER NAME]** is used to compile the programs. 
+On the right side of the screen you can see a simple "Hello World" program. 
+
+Note that the projects in CPSC 131 are compiled and tested on a server running
+Linux with the clang++ compiler. It is recommended to familiiarze yourself with
+the clang compiler.
+
+To compile this program, install clang and run the command 
+`clang++ -std=c++11 main.cpp -o main`
 
 Some useful flag for the command include:  
  - `-Wall` turns on almost every warning  
