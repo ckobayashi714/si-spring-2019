@@ -1,0 +1,26 @@
+<h1 id='hello-world'>Hello World!</h1><pre class="highlight cpp tab-cpp"><code>    <span class="c1">// main.cpp
+</span>    <span class="cp">#include &lt;iostream&gt;
+</span>
+    <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Hello World!"</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span>
+</code></pre>
+<p>On the right side of the screen you can see a simple &quot;Hello World&quot; program. </p>
+
+<p>Note that the projects in CPSC 131 are compiled and tested on a server running
+Linux with the clang++ compiler. It is recommended to familiiarze yourself with
+the clang compiler.</p>
+
+<p>To compile this program, install clang and run the command 
+<code>clang++ -std=c++11 main.cpp -o main</code></p>
+
+<p>Some useful flag for the command include:<br>
+ - <code>-Wall</code> turns on almost every warning<br>
+ - <code>-std=c++11</code> uses C++ 11 standards<br>
+ - <code>-o</code> allows for the executable to be named<br>
+ - <code>-g</code> adds debugger information to compiled file (necessary for debuggin)  </p>
+
+<p>Chances are that you&#39;ll be interacting a lot more with the command line in 
+this class. Here is a useful 
+<a href="https://learncodethehardway.org/unix/bash_cheat_sheet.pdf">cheat sheet</a> of 
+bash commands</p>
