@@ -4,3 +4,6 @@ branches:
     only:
     - master
     - website
+language: cpp
+compiler: clang
+script: ./build.sh
