@@ -23,9 +23,9 @@ public:
     void set_lname(string lname) { student_lname = lname; }
 
     // Accessors
-    string get_cwid () { return cwid; }
-    string get_fname () { return student_fname; }
-    string get_lname () { return student_lname; }
+    string get_cwid () const { return cwid; }
+    string get_fname () const { return student_fname; }
+    string get_lname () const { return student_lname; }
 };
 
 #endif
