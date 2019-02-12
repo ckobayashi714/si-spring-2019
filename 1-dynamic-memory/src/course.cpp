@@ -7,34 +7,33 @@ using namespace std;
 
 // ===== TODO ===== //
 
+// Initialize member variables.
+// By default, course will hold a max of 25 students.
 Course::Course() {
-    // TODO
-    // Initialize private variables.
-    // By default, course will hold a max of 25 students.
+
 }
 
+// Very similar to default constructor, but parameter specifies max
+// number of students.
 Course::Course(size_t max) {
-    // TODO
-    // Very similar to default constructor, but parameter specifies max
-    // number of students.
+
 }
 
+// Utilized to free allocated memory.
 Course::~Course() {
-    // TODO
-    // Utilized to free allocated memory.
+
 }
 
+// Fetch student at specified index.
+// Utilize stdexcept to handle edge cases.
 Student Course::get_student(size_t index) const {
-    // TODO
-    // Fetch student at specified index.
-    // Utilize stdexcept to handle edge cases.
     return students[index];
 }
 
+// Insert a new student
+// Utilize stdexcept to handle endge cases.
 void Course::enroll_student(const Student &student) {
-    // TODO
-    // Insert a new student
-    // Utilize stdexcept to handle endge cases.
+
 }
 
 // ===== END TODO ===== //
