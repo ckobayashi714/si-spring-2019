@@ -1,7 +1,7 @@
 
 #include "course.h"
 #include "student.h"
-#include <exception>
+#include <stdexcept>
 
 using namespace std;
 
