@@ -2,7 +2,7 @@ dist: trusty
 sudo: false
 branches:
     only:
-    - master
+    - solutions
     - website
 
 language: cpp
