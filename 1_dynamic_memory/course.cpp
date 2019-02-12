@@ -34,7 +34,7 @@ Course::~Course() {
 }
 
 Student Course::get_student(size_t index) const {
-    if (index < 0 || index >= num_students)
+    if (index >= num_students)
         throw out_of_range("index exceeds number of students");
     return students[index];  // Fetch student at specified index
 }
