@@ -1,3 +1,4 @@
+
 #! /usr/bin/env bash
 
 # Find width of terminal
