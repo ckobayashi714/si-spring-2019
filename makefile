@@ -18,7 +18,7 @@ TESTS = test
 all : $(GTEST_LIBS) $(TESTS)
 
 clean :
-	rm -f $(GTEST_LIBS) $(TESTS) *.o
+	rm -rf $(GTEST_LIBS) $(TESTS) *.o *.dSYM
 
 # Builds gtest.a and gtest_main.a
 gtest-all.o : $(GTEST_SRCS_)
