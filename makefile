@@ -37,14 +37,12 @@ libgtest_main.a : gtest-all.o gtest_main.o
 
 
 # Build source files and test
-DIRS = 1_dynamic_memory
-SRCS = $(patsubst %, %/*.cpp, $(DIRS))
-HEADERS = $(patsubst %, %/include/*.h, $(DIRS))
-INC_PATH = $(patsubst %, -I%/include, $(DIRS))
+DIRS = 1-dynamic-memory
+SRCS = $(patsubst %, %/src/*.cpp, $(DIRS))
+INC_PATH = $(patsubst %, -I%/include, $(DIRS)) $(patsubst %, -I%, $(DIRS))
 
-test.o : test.cpp $(HEADERS) $(GTEST_HEADERS)
-	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(INC_PATH) -c test.cpp
+$(info $$INC_PATH is [${INC_PATH}])
 
-test : test.o $(SRCS) $(GTEST_LIBS)
+test : test.cpp $(SRCS) $(GTEST_LIBS)
 	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(INC_PATH) -L$(GTEST_LIB_DIR) -lgtest_main -lpthread $^ -o $@
 
