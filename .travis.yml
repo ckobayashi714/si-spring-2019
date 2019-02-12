@@ -1,9 +1,11 @@
-
+dist: trusty
 sudo: false
 branches:
     only:
     - master
     - website
+
 language: cpp
 compiler: clang
-script: sh build.sh
+script:
+    - make test
