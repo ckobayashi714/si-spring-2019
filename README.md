@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/omolazabal/si-spring-2019.svg?branch=master)](https://travis-ci.com/omolazabal/si-spring-2019)
+[![Build Status](https://travis-ci.com/omolazabal/si-spring-2019.svg?branch=solutions)](https://travis-ci.com/omolazabal/si-spring-2019)
 
 # CPCS 131 Supplemental Instruction
 Every week new exercises will be introduced in the GitHub repo. The exercises will have missing information. Students will be tasked with contributing to the codebase by filling in the missing information. 
