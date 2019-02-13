@@ -6,7 +6,7 @@ Every week new exercises will be introduced in the GitHub repo. The exercises wi
 The following steps need to be taken to contribute.
 
 ## Prerequisites
-- Linux or macOS (Windows may work but it is not tested on)
+- Linux or macOS with [command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
 - A GitHub account
 
 ## Getting started
