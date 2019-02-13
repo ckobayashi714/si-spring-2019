@@ -13,9 +13,9 @@ Course::Course() {
     max_students = 25;
     students = new Student[max_students];
 
-    num_students = 0;     // Course is initially empty
-    professor_cwid = -1;  // Indicates a professor isn't set
-    class_num = -1;       // Indicates class number isnt set
+    num_students = 0;
+    professor_cwid = -1;
+    class_num = -1;
 }
 
 // Very similar to default constructor, but parameter specifies max
@@ -37,9 +37,7 @@ Course::~Course() {
 // Fetch student at specified index.
 // Utilize stdexcept to handle edge cases.
 Student Course::get_student(size_t index) const {
-    if (index >= num_students)
-        throw out_of_range("index exceeds number of students");
-    return students[index];  // Fetch student at specified index
+    return students[index];
 }
 
 // Insert a new student
