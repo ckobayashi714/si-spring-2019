@@ -24,6 +24,8 @@ To execute your programs, run the command `./run` at the root of the repository.
 
 To view the solutions, switch to the solutions branch by running the command `./view_solutions`. To go back to your workspace, run the command `./view_workspace`. **Do not** modify any code when viewing solutions. Only modify code when you are in your workspace.
 
+To check which branch you are on, run the command `git branch`. The branch you are on will be highlighted in green and have a asterisk next to it.
+
 ### Summary of commands
 
 | Script  | Action |
