@@ -1,4 +1,6 @@
 
 #! /usr/bin/env bash
 
+git add .
+git commit -m "merge in new problems"
 git merge omolazabal/master
