@@ -3,6 +3,7 @@
 
 git add .
 git commit -m "merge in new problems"
+git fetch omolazabal
 git merge omolazabal/master
 
 git checkout solutions
