@@ -1,6 +1,4 @@
 
-/* ===== DYNAMIC MEMORY TESTS ===== */
-
 #include "gtest/gtest.h"
 #include "student.h"
 #include "course.h"
@@ -38,4 +36,3 @@ TEST(Dynamic_Memory, Get_Student) {
     EXPECT_EQ(course.get_student(1), student2_test);
 }
 
-/* ===== DYNAMIC MEMORY TESTS (END) ===== */
