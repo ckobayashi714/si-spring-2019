@@ -7,7 +7,7 @@ branches:
 language: cpp
 compiler: clang
 script:
-    - make
+    - make all
     - make exec
 
 after_success:
