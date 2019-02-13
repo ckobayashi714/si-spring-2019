@@ -10,43 +10,30 @@ using namespace std;
 // Initialize member variables.
 // By default, course will hold a max of 25 students.
 Course::Course() {
-    max_students = 25;
-    students = new Student[max_students];
 
-    num_students = 0;
-    professor_cwid = -1;
-    class_num = -1;
 }
 
 // Very similar to default constructor, but parameter specifies max
 // number of students.
 Course::Course(size_t max) {
-    max_students = max;
-    students = new Student[max_students];
 
-    num_students = 0;
-    professor_cwid = -1;
-    class_num = -1;
 }
 
 // Utilized to free allocated memory.
 Course::~Course() {
-    delete [] students;
+
 }
 
 // Fetch student at specified index.
 // Utilize stdexcept to handle edge cases.
 Student Course::get_student(size_t index) const {
-    return students[index];
+
 }
 
 // Insert a new student
 // Utilize stdexcept to handle endge cases.
 void Course::enroll_student(const Student &student) {
-    if (num_students >= max_students)
-        throw range_error("number of students exceeds maximum student capacity");
-    students[num_students] = student;  // Insert new student
-    num_students++;                    // Increment student counter
+
 }
 
 // ===== END TODO ===== //
