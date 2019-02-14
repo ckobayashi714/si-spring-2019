@@ -63,7 +63,7 @@ clean :
 	rm -rf $(GTEST_LIBS) $(TESTS) *.o *.dSYM
 
 exec :
-	for test in $(TESTS); do \
+	@for test in $(TESTS); do \
 		echo ""; \
 		echo ""; \
 		echo $$test; \
