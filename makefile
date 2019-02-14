@@ -63,5 +63,10 @@ clean :
 	rm -rf $(GTEST_LIBS) $(TESTS) *.o *.dSYM
 
 exec :
-	for test in $(TESTS); do ./$$test; done
+	for test in $(TESTS); do \
+		echo ""; \
+		echo ""; \
+		echo $$test; \
+		./$$test; \
+	done
 
