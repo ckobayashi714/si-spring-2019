@@ -13,7 +13,7 @@ The following steps need to be taken to contribute.
 1. **Fork this repository** by clicking [Fork](https://github.com/omolazabal/si-spring-2019/fork) on the top right corner of this page
 2. **Navigating to your preferred workspace in your terminal** to work on the repository locally. Use [this guide](https://www.git-tower.com/learn/git/ebook/en/command-line/appendix/command-line-101) if necessary
 3. **Clone your repository** by running the command `git clone https://github.com/{YOUR_GITHUB_USERNAME}/si-spring-2019.git`. Replace {YOUR_GITHUB_USERNAME} with your GitHub username
-4. **Configure the solutions branch** by running the command `./gitconfig`  
+4. **Configure your local repository** by running the command `./gitconfig`  
 
 ## Workflow
 Every week this repository will be updated with new exercises. The files of each exercise will available in their respective folder. The task is to fill out the functions in the files that are labeled with TODO comments.
