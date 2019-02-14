@@ -20,4 +20,5 @@ make exec
 title="CLEANING UP" 
 printf '\n%*s\n' "$COLUMNS" '' | tr ' ' =
 printf "\n%*s\n\n" $(((${#title}+$COLUMNS)/2)) "$title"
+printf '%*s\n' "$COLUMNS" '' | tr ' ' =
 make -s clean
