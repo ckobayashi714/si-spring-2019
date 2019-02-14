@@ -8,16 +8,16 @@ COLUMNS=$(tput cols)
 title="COMPILING TESTS" 
 printf '\n%*s\n' "$COLUMNS" '' | tr ' ' =
 printf "\n%*s\n\n" $(((${#title}+$COLUMNS)/2)) "$title"
-make all
+make -s all
 
 # Output results
 title="RUNNING TESTS" 
 printf '\n%*s\n' "$COLUMNS" '' | tr ' ' =
-printf "\n%*s\n\n" $(((${#title}+$COLUMNS)/2)) "$title"
+printf "\n%*s" $(((${#title}+$COLUMNS)/2)) "$title"
 make exec
 
 # Remove generated files
 title="CLEANING UP" 
 printf '\n%*s\n' "$COLUMNS" '' | tr ' ' =
 printf "\n%*s\n\n" $(((${#title}+$COLUMNS)/2)) "$title"
-make clean
+make -s clean
